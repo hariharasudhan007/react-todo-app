@@ -14,6 +14,7 @@ tailwindcss
 ## to Start program in local enviroment
 - yarn install
 - yarn run dev
+- open url [http://localhost:5173/]
 
 ## filters are
 - task name
