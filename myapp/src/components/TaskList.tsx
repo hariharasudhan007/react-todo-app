@@ -1,5 +1,5 @@
 // src/components/TaskList.tsx
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Task } from '../types';
 import TaskItem from './TaskItem';
 
