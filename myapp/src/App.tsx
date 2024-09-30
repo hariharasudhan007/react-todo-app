@@ -48,6 +48,10 @@ const App: React.FC = () => {
         if (status) {
             filtered = filtered.filter(task => task.status === status);
         }
+        if (time) {
+            const filterTime = new Date(time);
+            filtered = filtered.filter(task => task.deadline <= filterTime);
+        }
 
 
 
